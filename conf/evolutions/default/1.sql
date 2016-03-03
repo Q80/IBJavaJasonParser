@@ -5,7 +5,7 @@
 
 create table person (
   id                        bigint not null,
-  first_name                varchar(255),
+  first_name                varchar(255) not null,
   last_name                 varchar(255),
   age                       integer,
   constraint pk_person primary key (id))

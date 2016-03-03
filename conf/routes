@@ -4,6 +4,7 @@
 
 # Home page
 GET     /                           controllers.Application.index()
+GET     /list                       controllers.Application.listPersons()
 
 POST    /parse                      controllers.Parser.parse()
 
