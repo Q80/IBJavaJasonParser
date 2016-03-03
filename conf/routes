@@ -5,8 +5,6 @@
 # Home page
 GET     /                           controllers.Application.index()
 
-POST    /example                    controllers.Application.example()
-
 POST    /parse                      controllers.Parser.parse()
 
 # Map static resources from the /public folder to the /assets URL path
